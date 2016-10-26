@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test name="For Posts verify Create, read, update and delete operations.">
+    <classes>
+      <class name="tests.PostsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="For Comments verify Create, read, update and delete operations.">
+    <classes>
+      <class name="tests.CommentsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="For Albums verify Create, read, update and delete operations.">
+    <classes>
+      <class name="tests.AlbumsTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="For Photos verify Create, read, update and delete operations.">
+    <classes>
+      <class name="tests.PhotosTest"/>
+    </classes>
+  </test> <!-- Test -->
+  <test name="For ToDos verify Create, read, update and delete operations.">
+    <classes>
+      <class name="tests.ToDosTest"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
